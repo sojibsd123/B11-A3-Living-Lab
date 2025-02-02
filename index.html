@@ -38,11 +38,12 @@
     </style>
 </head>
 <body class="sora-font">
-    <header class="bg-gradient-to-r from-[#FFFFFF] to-[#EFEBE3]">
-      <nav class="w-[1320px] mx-auto">
+    <header class="bg-gradient-to-r from-[#FFFFFF] to-[#EFEBE3] px-5 lg:px-0">
+      <nav class="w-full lg:w-[1320px] mx-auto ">
         <div class="navbar ">
-          <div class="navbar-start">
-            <div class="dropdown">
+          <div class="navbar-start w-full justify-between lg:justify-normal">
+            <a class=" lg:hidden"><img  class="w-full"  src="./c2-assets/Group (1).png" alt=""></a>
+            <div class="dropdown ">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +66,9 @@
                 <li><a>Contact us</a></li>
               </ul>
             </div>
-            <a class=""><img  src="./c2-assets/logo-header.png" alt=""></a>
+            <a class="hidden lg:flex"><img class=""  src="./c2-assets/logo-header.png" alt=""></a>
+
+            
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
@@ -74,7 +77,7 @@
               <li><a>Contact us</a></li>
             </ul>
           </div>
-          <div class="navbar-end space-x-3">
+          <div class="hidden navbar-end lg:flex  lg:space-x-3">
             <img src="./c2-assets/Frame 6.png" alt="">
             <img src="./c2-assets/Group.png" alt="">
             <a class="btn btn-outline text-black border-[#179800]">Button</a>
@@ -84,7 +87,7 @@
       </nav>
 
       <!-- hero section -->
-       <section class="mt-20 justify-items-center ">
+       <section class="mt-10 lg:mt-20 justify-items-center ">
           <h1 class="text-center text-[32px] lg:text-[56px] font-semibold">Freshness <span class="text-[#179800]">You Can<br>Count On,</span> Prices You’ll Love!</h1>
             <p class="text-[16px] lg:text-xl text-center lg:w-3/4">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
             <img src="./c2-assets/hero-vegetables.png" alt="">
@@ -92,10 +95,10 @@
     </header>
 
     <!-- Main section -->
-     <main class="px-5 lg:px-0">
+     <main class="">
 
       <!-- Service Section -->
-        <section class="w-full lg:w-[1320px] mx-auto pt-20 pb-20">
+        <section class="w-full px-5 lg:px-0  lg:w-[1320px] mx-auto pt-20 pb-20 ">
           <h2 class="text-4xl text-[#179800] font-semibold">Services</h2>
           <div class="grid  lg:grid-cols-3 gap-5 mt-7">
             <div class=" bg-secondery-bg p-6 lg:p-8 place-items-center text-center space-y-4 rounded-[12px]">
@@ -118,6 +121,160 @@
             
           </div>
         </section>
+      <!-- service section end -->
+
+        <!-- our grid section -->
+         <section class="bg-secondery-bg px-5 lg:px-5  pb-20">
+            <div class="w-full lg:w-[1320px] mx-auto pt-7">
+              <h2 class="text-[36px] text-[#179800] font-semibold">Popular Products</h2>
+
+              <!-- Our grid section -->
+               <div class=" lg:flex gap-5">
+                  <div class="w-full lg:w-[400px] h-[400px] p-[25px] bg-cover bg-center" style="background-image: url(./c2-assets/Group\ 14.png)">
+                    <h3 class="text-white text-[32px] mb-4">30% off</h3>
+                     <p class="text-[16px] mb-4">Discover a world of treats, toys, and essentials handpicked for</p>
+                     <button class="btn">Buy Now</button>
+                  </div>
+                    <!-- grid rows -->
+                  <div class="w-full  lg:w-[872px] grid grid-cols-2 lg:grid-cols-3 grid-rows-3 gap-5">
+                    <div class="bg-white rounded-[12px] flex gap-3 p-[25px]  w-[275px] h-[120px]">
+                      <img class="bg-secondery-bg p-2 rounded-[12px] " src="./c2-assets/Group 16 (1).png" alt="">
+                      <div class="">
+                        <h4 class="text-black font-semibold"><i class="fa-solid fa-star text-[#FFC107]"></i>  4.5</h4>
+                        <h2 class="text-[20px] text-black font-semibold">Onion 1 KG</h2>
+                        <h3 class="pb-3 text-black">$39.99</h3>
+                      </div>
+                    </div>
+                    <div class="bg-white rounded-[12px]  flex gap-3 p-[25px] w-[275px] h-[120px] ">
+                      <img class="bg-secondery-bg p-2 rounded-[12px] " src="./c2-assets/Group 16 (2).png" alt="">
+                      <div class="">
+                        <h4 class="text-black font-semibold"><i class="fa-solid fa-star text-[#FFC107]"></i>  4.5</h4>
+                        <h2 class="text-[20px] text-black font-semibold">Tomato 500g</h2>
+                        <h3 class="pb-3 text-black">$39.99</h3>
+                      </div>
+                    </div>
+                    <div class="bg-white rounded-[12px] flex gap-3 p-[25px] w-[275px] h-[120px] ">
+                      <img class="bg-secondery-bg p-2 rounded-[12px] " src="./c2-assets/Group 16 (3).png" alt="">
+                      <div class="">
+                        <h4 class="text-black font-semibold"><i class="fa-solid fa-star text-[#FFC107]"></i>  4.5</h4>
+                        <h2 class="text-[20px] text-black font-semibold">Potato 1 KG</h2>
+                        <h3 class="pb-3 text-black">$39.99</h3>
+                      </div>
+                    </div>
+                    <div class="bg-white rounded-[12px] flex gap-3 p-[25px] w-[275px] h-[120px] ">
+                      <img class="bg-secondery-bg p-2 rounded-[12px] " src="./c2-assets/Group 16 (2).png" alt="">
+                      <div class="">
+                        <h4 class="text-black font-semibold"><i class="fa-solid fa-star text-[#FFC107]"></i>  4.5</h4>
+                        <h2 class="text-[20px] text-black font-semibold">Tomato 500g</h2>
+                        <h3 class="pb-3 text-black">$39.99</h3>
+                      </div>
+                    </div>
+                    <div class="bg-white rounded-[12px] flex gap-3 p-[25px] w-[275px] h-[120px] ">
+                      <img class="bg-secondery-bg p-2 rounded-[12px] " src="./c2-assets/Group 16 (1).png" alt="">
+                      <div class="">
+                        <h4 class="text-black font-semibold"><i class="fa-solid fa-star text-[#FFC107]"></i>  4.5</h4>
+                        <h2 class="text-[20px] text-black font-semibold">Onion 1 KG</h2>
+                        <h3 class="pb-3 text-black">$39.99</h3>
+                      </div>
+                    </div>
+                    <div class="bg-white rounded-[12px] flex gap-3 p-[25px] w-[275px] h-[120px] ">
+                      <img class="bg-secondery-bg p-2 rounded-[12px] " src="./c2-assets/Group 16 (1).png" alt="">
+                      <div class="">
+                        <h4 class="text-black font-semibold"><i class="fa-solid fa-star text-[#FFC107]"></i>  4.5</h4>
+                        <h2 class="text-[20px] text-black font-semibold">Onion 1 KG</h2>
+                        <h3 class="pb-3 text-black">$39.99</h3>
+                      </div>
+                    </div>
+                    <div class="bg-white rounded-[12px] flex gap-3 p-[25px] w-[275px] h-[120px] ">
+                      <img class="bg-secondery-bg p-2 rounded-[12px] " src="./c2-assets/Group 16 (1).png" alt="">
+                      <div class="">
+                        <h4 class="text-black font-semibold"><i class="fa-solid fa-star text-[#FFC107]"></i>  4.5</h4>
+                        <h2 class="text-[20px] text-black font-semibold">Onion 1 KG</h2>
+                        <h3 class="pb-3 text-black">$39.99</h3>
+                      </div>
+                    </div>
+                    <div class="bg-white rounded-[12px] flex gap-3 p-[25px] w-[275px] h-[120px] ">
+                      <img class="bg-secondery-bg p-2 rounded-[12px] " src="./c2-assets/Group 16 (1).png" alt="">
+                      <div class="">
+                        <h4 class="text-black font-semibold"><i class="fa-solid fa-star text-[#FFC107]"></i>  4.5</h4>
+                        <h2 class="text-[20px] text-black font-semibold">Onion 1 KG</h2>
+                        <h3 class="pb-3 text-black">$39.99</h3>
+                      </div>
+                    </div>
+                    <div class="bg-white rounded-[12px] flex gap-3 p-[25px] w-[275px] h-[120px] ">
+                      <img class="bg-secondery-bg p-2 rounded-[12px] " src="./c2-assets/Group 16 (1).png" alt="">
+                      <div class="">
+                        <h4 class="text-black font-semibold"><i class="fa-solid fa-star text-[#FFC107]"></i>  4.5</h4>
+                        <h2 class="text-[20px] text-black font-semibold">Onion 1 KG</h2>
+                        <h3 class="pb-3 text-black">$39.99</h3>
+                      </div>
+                    </div> 
+                  </div>
+               </div>
+               <!-- grid container end -->
+               
+         </section>
+         <!-- grid drction end -->
+
+           <!-- ofer section  -->
+            <section class="px-5 lg:px-0">
+                <div class=" w-[1320px] mx-auto mt-10 mb-10">
+                  <h2 class="text-[36px] text-[#179800] font-semibold">Arrival & Offers</h2>
+                
+                <!-- flex section -->
+                 <div class=" lg:flex gap-4">
+                    <div class="w-[400px] lg:w-[780px] h-[344px]  bg-cover bg-center" style="background-image: url(./c2-assets/Offer\ Card\ 1.png)">
+                      <button class="btn btn-secondary ml-10 mt-[140px]">Cook Exotic Dishes</button>
+                      <h2 class="ml-10 text-white mt-[20px]">UP to 20% OFF</h2>
+
+                    </div>
+                    <div class="w-[400px] lg:w-[520px] h-[344px] bg-cover bg-center" style="background-image: url(./c2-assets/Offer\ Card\ 2.png)">
+                      <button class="btn btn-secondary ml-10 mt-[150px]">Cook Exotic Dishes</button>
+                      <h2 class="ml-10 text-white mt-[20px]">UP to 20% OFF</h2>
+                    </div>
+                 </div>
+              </div>
+            </section>
+            <!-- end -->
+
+          <section class="">
+              <div class="w-full lg:flex lg:w-[1320px] mx-auto bg-secondery-bg p-8 px-5 lg:px-0 gap-10  z-20 ">
+                  <div>
+                    <img src="./c2-assets/vegetable-busket.png" alt="">
+                  </div>
+                  <div class="mt-6">
+                    <h2 class="text-3xl mb-3">Get Grocery News!</h2>
+                    <p class="mb-3">Exclusive training tips, ticks, product deals and more.</p>
+                    <form action="">
+                      <input class="my-3 outlibe-none input input-bordered w-full max-w-xs" type="email" placeholder="Enter your email">
+                    <button class="btn btn-secondary  mt-3">Secondary</button>
+                  </div>
+              </div>
+          </section>
      </main>
+
+     <footer class="footer relative bg-[#179800] text-base-content mt-12  p-10 ">
+        <nav class="w-full">
+        <img src="./c2-assets/logo-footer.png" alt="">
+        <p class="text-white w-[300px]">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+        </nav>
+        <nav class="w-full">
+        <a class="link link-hover text-white">Product</a>
+        <a class="link link-hover text-white">Services</a>
+        <a class="link link-hover text-white">Contact us</a>
+        </nav>
+        <nav class="w-full">
+        <h6 class="footer-title text-white">Social</h6>
+        <div class="grid grid-flow-col gap-6">
+          <a>
+            <i class="fa-brands fa-facebook text-white"></i>
+            <i class="fa-brands fa-instagram text-white"></i>
+            <i class="fa-brands fa-linkedin text-white"></i>
+            <i class="fa-brands fa-youtube text-white"></i>
+          </a>
+        </div>
+      </nav>
+    
+    </footer>
 </body>
 </html>

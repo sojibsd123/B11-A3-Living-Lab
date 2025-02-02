@@ -4,5 +4,8 @@ module.exports = {
   theme: {
     extend: {},
   },
+  backgroundImage:{
+    'img-bg':"url ('./c2-assetes/Group 14.png')"
+  },
   plugins: [],
 }
